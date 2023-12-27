@@ -1,0 +1,108 @@
+main
+{
+    article
+    {
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+    form
+    {
+        background-color: black;
+        padding: 50px 55px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 550px;
+    }
+    legend
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+        margin-bottom: 50px;
+        color: #fef6cd;
+    }
+    label
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+    .input-group
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        input, textarea
+        {
+            padding: 17px 25px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            background-color: #edfff0;
+            border: 2px solid #F0FAF1;
+            color: #283629;
+            outline: none;
+        }
+        input::placeholder, textarea::placeholder
+        {
+            color: #b5cab6;
+        }
+    }
+    .form-txt
+    {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-bottom: 30px;
+        a
+        {
+            font-size: 14px;
+            font-weight: 600;
+            color: #76b28e;
+            text-decoration: none;
+            &:hover
+            {
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
+    .button
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 50px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        border: 0;
+        border-radius: 50px;
+        background-color: #50e04b;
+        box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+        color: #ffffff;
+        cursor: pointer;
+        &:hover
+        {
+            background-color: greenyellow;
+        }
+    }
+}
+
+@media (max-width: 991px)
+{
+    body
+    {
+        padding: 30px;
+    }
+
+    form
+    {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input
+    {
+        padding: 15px;
+    }
+}

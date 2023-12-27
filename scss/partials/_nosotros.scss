@@ -1,0 +1,17 @@
+.somos
+{
+    margin: 250px;
+    width: 900px;
+    padding: 15px;
+    margin-top: 50px;
+    transition: all ease 300ms;
+    &:hover
+    {
+        transform: scale(1.2);
+    }
+    img
+    {
+        width: 100%;
+        height: fit-content;
+    }
+}

@@ -1,0 +1,573 @@
+@media (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(75, 71, 71);
+  }
+  header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    font-family: "Russo One", sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: left;
+  }
+  header nav {
+    padding: 10px;
+  }
+  header nav a {
+    font-family: "Russo One", sans-serif;
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px;
+    color: #fef6cd;
+    text-decoration: none;
+  }
+  header nav a:hover {
+    color: red;
+    font-size: bold;
+    text-decoration: underline;
+  }
+  header .logotipo img {
+    width: 50%;
+    height: 315px;
+  }
+  main {
+    margin: 100px;
+  }
+  main h1 {
+    margin: 90px;
+    font-family: "Russo One", sans-serif;
+    color: #fef6cd;
+    text-align: center;
+  }
+  main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: silver;
+    text-align: center;
+  }
+  main .boton {
+    display: flex;
+    justify-content: center;
+  }
+  main .button {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 50px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .home {
+    margin: 250px;
+    width: 900px;
+    padding: 15px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  main .home:hover {
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+  }
+  main .home img {
+    width: 100%;
+    height: fit-content;
+  }
+  main .container {
+    display: flex;
+    flex-direction: row;
+  }
+  main .novedades {
+    width: 500px;
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 2px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  main .novedades:hover {
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+  }
+  main .novedades img {
+    width: 100%;
+    height: fit-content;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: silver;
+  }
+  footer .copy {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: x-small;
+  }
+  footer .redes {
+    padding: 15px;
+    text-align: right;
+  }
+  footer .redes a {
+    color: blue;
+    font-family: "Russo One", sans-serif;
+    text-decoration: none;
+    padding: 5px;
+  }
+  footer .redes a:hover {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 320px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(75, 71, 71);
+  }
+  header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    font-family: "Russo One", sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: left;
+  }
+  header nav {
+    padding: 10px;
+  }
+  header nav a {
+    font-family: "Russo One", sans-serif;
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px;
+    color: #fef6cd;
+    text-decoration: none;
+  }
+  header nav a:hover {
+    color: red;
+    font-size: bold;
+    text-decoration: underline;
+  }
+  header .logotipo img {
+    width: 50%;
+    height: 315px;
+  }
+  main {
+    margin: 100px;
+  }
+  main h1 {
+    margin: 90px;
+    font-family: "Russo One", sans-serif;
+    color: #fef6cd;
+    text-align: center;
+  }
+  main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: silver;
+    text-align: center;
+  }
+  main .boton {
+    display: flex;
+    justify-content: center;
+  }
+  main .button {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 50px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  main .home {
+    margin: 250px;
+    width: 900px;
+    padding: 15px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  main .home:hover {
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+  }
+  main .home img {
+    width: 100%;
+    height: fit-content;
+  }
+  main .container {
+    display: flex;
+    flex-direction: row;
+  }
+  main .novedades {
+    width: 500px;
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 2px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  main .novedades:hover {
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+  }
+  main .novedades img {
+    width: 100%;
+    height: fit-content;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: silver;
+  }
+  footer .copy {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: x-small;
+  }
+  footer .redes {
+    padding: 15px;
+    text-align: right;
+  }
+  footer .redes a {
+    color: blue;
+    font-family: "Russo One", sans-serif;
+    text-decoration: none;
+    padding: 5px;
+  }
+  footer .redes a:hover {
+    text-decoration: underline;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(75, 71, 71);
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 50px;
+  color: aliceblue;
+  text-align: left;
+}
+header nav {
+  padding: 10px;
+}
+header nav a {
+  font-family: "Russo One", sans-serif;
+  font-size: x-large;
+  margin: 10px;
+  padding: 10px;
+  color: #fef6cd;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: red;
+  font-size: bold;
+}
+header .logotipo img {
+  width: 50%;
+  height: 315px;
+}
+
+main {
+  margin: 100px;
+}
+main h1 {
+  margin: 90px;
+  font-family: "Russo One", sans-serif;
+  color: #fef6cd;
+  text-align: center;
+}
+main p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  color: silver;
+  text-align: center;
+}
+main .boton {
+  display: flex;
+  justify-content: center;
+}
+main .boton .button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+}
+main .home {
+  margin: 250px;
+  width: 900px;
+  padding: 15px;
+  margin-top: 20px;
+  transition: all ease 300ms;
+}
+main .home:hover {
+  transform: scale(1.2);
+}
+main .home img {
+  width: 100%;
+  height: fit-content;
+}
+main .container {
+  display: flex;
+  flex-direction: row;
+}
+main .container .novedades {
+  width: 500px;
+  margin: 10px;
+  border: 4px solid black;
+  border-radius: 2px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main .container .novedades:hover {
+  box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+main .container .novedades img {
+  width: 100%;
+  height: fit-content;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+footer .social {
+  font-family: "Russo One", sans-serif;
+  font-size: x-large;
+  margin-top: 20px;
+}
+footer .redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+footer .redes a {
+  font-size: 80px;
+  transition: all ease 300ms;
+}
+footer .redes a:hover {
+  transform: scale(1.2);
+}
+footer .redes .facebook {
+  color: rgb(2, 74, 230);
+}
+footer .redes .whatsapp {
+  color: rgb(3, 196, 3);
+}
+footer .redes .twitter {
+  color: #4fa8fb;
+}
+footer .redes .instagram {
+  color: orange;
+}
+footer .redes .tiktok {
+  color: black;
+}
+footer .copy {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: x-small;
+}
+
+.somos {
+  margin: 250px;
+  width: 900px;
+  padding: 15px;
+  margin-top: 50px;
+  transition: all ease 300ms;
+}
+.somos:hover {
+  transform: scale(1.2);
+}
+.somos img {
+  width: 100%;
+  height: fit-content;
+}
+
+main .contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .consolas {
+  width: 300px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main .consolas:hover {
+  box-shadow: 0px 8px 16px rgb(0, 0, 0);
+}
+main .consolas img {
+  width: 100%;
+  height: fit-content;
+}
+main .accesorios {
+  width: 300px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main .accesorios:hover {
+  box-shadow: 0px 8px 16px rgb(0, 0, 0);
+}
+main .accesorios img {
+  width: 100%;
+  height: fit-content;
+}
+main h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: xx-large;
+  color: silver;
+}
+
+.body {
+  background-color: rgb(75, 71, 71);
+}
+
+main h1 {
+  font-size: xx-large;
+}
+main .container-games {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .juegos {
+  width: 300px;
+  padding: 15px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main .juegos:hover {
+  box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+main .juegos img {
+  width: 100%;
+  height: fit-content;
+}
+main .juegos p {
+  font-size: large;
+}
+main .container p {
+  font-size: large;
+  text-align: justify;
+}
+main .img-propia {
+  width: 100%;
+  height: 400px;
+}
+
+main article {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+main form {
+  background-color: black;
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 550px;
+}
+main legend {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  margin-bottom: 50px;
+  color: #fef6cd;
+}
+main label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+main .input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+main .input-group input, main .input-group textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #edfff0;
+  border: 2px solid #F0FAF1;
+  color: #283629;
+  outline: none;
+}
+main .input-group input::placeholder, main .input-group textarea::placeholder {
+  color: #b5cab6;
+}
+main .form-txt {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .form-txt a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #76b28e;
+  text-decoration: none;
+}
+main .form-txt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+main .button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #50e04b;
+  box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+  color: #ffffff;
+  cursor: pointer;
+}
+main .button:hover {
+  background-color: greenyellow;
+}
+
+@media (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+  form {
+    padding: 50px 30px;
+    width: 100%;
+  }
+  input {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
