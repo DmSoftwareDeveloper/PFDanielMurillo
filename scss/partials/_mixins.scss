@@ -11,8 +11,9 @@
     justify-content: center;
 }
 
-@mixin flex-row
+@mixin flex-evenly
 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

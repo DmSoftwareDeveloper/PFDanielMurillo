@@ -14,10 +14,18 @@ body
     background-color: rgb(75, 71, 71);
 }
 
+.contenedor
+{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
 header
 {
     background-color: $color-fondo;
-    padding: 20px;
     text-align: center;
     h1
     {
@@ -56,7 +64,6 @@ header
 
 main
 {
-    margin: 100px;
     h1
     {
         margin: 90px;
@@ -86,10 +93,7 @@ main
     }
     .home
     {
-        margin: 250px;
-        width: 900px;
-        padding: 15px;
-        margin-top: 20px;
+        cursor: pointer;
         transition: all ease 300ms;
         &:hover
         {
@@ -101,13 +105,18 @@ main
             height: fit-content;
         }
     }
-    .container
+    .contenedor
     {
-        @include flex-row;
+        .container
+        {
+            @include flex-evenly;
+        }
         .novedades
         {
-            width: 500px;
-            margin: 10px;
+            width: 30%;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
             border: 4px solid black;
             border-radius: 2px;
             transition: box-shadow 0.3s ease-in-out;
@@ -117,8 +126,9 @@ main
             }
             img
             {
+                display: block;
                 width: 100%;
-                height: fit-content;
+                object-fit: cover;
             }
         }
     }

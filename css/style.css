@@ -1,247 +1,57 @@
-@media (max-width: 768px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: rgb(75, 71, 71);
-  }
+@media (max-width: 900px) {
   header {
-    background-color: black;
-    padding: 20px;
-    text-align: center;
+    background-position: center;
   }
-  header h1 {
-    font-family: "Russo One", sans-serif;
-    font-size: 50px;
-    color: aliceblue;
-    text-align: left;
+  .contenedor {
+    width: 90%;
   }
-  header nav {
-    padding: 10px;
+  .home {
+    width: 90%;
   }
-  header nav a {
-    font-family: "Russo One", sans-serif;
-    font-size: x-large;
-    margin: 10px;
-    padding: 10px;
-    color: #fef6cd;
-    text-decoration: none;
-  }
-  header nav a:hover {
-    color: red;
-    font-size: bold;
-    text-decoration: underline;
-  }
-  header .logotipo img {
-    width: 50%;
-    height: 315px;
-  }
-  main {
-    margin: 100px;
-  }
-  main h1 {
-    margin: 90px;
-    font-family: "Russo One", sans-serif;
-    color: #fef6cd;
-    text-align: center;
-  }
-  main p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-    color: silver;
-    text-align: center;
-  }
-  main .boton {
-    display: flex;
-    justify-content: center;
-  }
-  main .button {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin: 50px;
-    padding: 10px;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  main .home {
-    margin: 250px;
-    width: 900px;
-    padding: 15px;
-    margin-top: 20px;
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  main .home:hover {
-    box-shadow: 0 8px 16px rgb(0, 0, 0);
-  }
-  main .home img {
-    width: 100%;
-    height: fit-content;
-  }
-  main .container {
-    display: flex;
-    flex-direction: row;
-  }
-  main .novedades {
-    width: 500px;
-    margin: 10px;
-    border: 4px solid black;
-    border-radius: 2px;
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  main .novedades:hover {
-    box-shadow: 0 8px 16px rgb(0, 0, 0);
-  }
-  main .novedades img {
-    width: 100%;
-    height: fit-content;
-  }
-  footer {
-    text-align: center;
-    margin-top: 50px;
-    padding: 20px;
-    background-color: silver;
-  }
-  footer .copy {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: x-small;
-  }
-  footer .redes {
-    padding: 15px;
-    text-align: right;
-  }
-  footer .redes a {
-    color: blue;
-    font-family: "Russo One", sans-serif;
-    text-decoration: none;
-    padding: 5px;
-  }
-  footer .redes a:hover {
-    text-decoration: underline;
+  .container {
+    width: 90%;
   }
 }
-@media (max-width: 320px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: rgb(75, 71, 71);
-  }
-  header {
-    background-color: black;
-    padding: 20px;
+@media (max-width: 500px) {
+  nav {
     text-align: center;
+    padding: 30px 0 0 0;
   }
-  header h1 {
-    font-family: "Russo One", sans-serif;
-    font-size: 50px;
-    color: aliceblue;
-    text-align: left;
+  nav a {
+    margin-right: 5px;
   }
-  header nav {
-    padding: 10px;
+  .contenedor h1 {
+    font-size: 30px;
   }
-  header nav a {
-    font-family: "Russo One", sans-serif;
-    font-size: x-large;
-    margin: 10px;
-    padding: 10px;
-    color: #fef6cd;
-    text-decoration: none;
-  }
-  header nav a:hover {
-    color: red;
-    font-size: bold;
-    text-decoration: underline;
-  }
-  header .logotipo img {
-    width: 50%;
-    height: 315px;
-  }
-  main {
-    margin: 100px;
-  }
-  main h1 {
-    margin: 90px;
-    font-family: "Russo One", sans-serif;
-    color: #fef6cd;
-    text-align: center;
-  }
-  main p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-    color: silver;
-    text-align: center;
-  }
-  main .boton {
+  .contenedor .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-  main .button {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin: 50px;
-    padding: 10px;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
+  .contenedor .container .novedades {
+    margin-bottom: 30px;
   }
-  main .home {
-    margin: 250px;
-    width: 900px;
-    padding: 15px;
-    margin-top: 20px;
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  main .home:hover {
-    box-shadow: 0 8px 16px rgb(0, 0, 0);
-  }
-  main .home img {
+  .contenedor .container .novedades img {
     width: 100%;
-    height: fit-content;
   }
-  main .container {
+}
+@media (max-width: 250px) {
+  .contenedor h1 {
+    font-size: 30px;
+  }
+  .contenedor .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
   }
-  main .novedades {
-    width: 500px;
-    margin: 10px;
-    border: 4px solid black;
-    border-radius: 2px;
-    transition: box-shadow 0.3s ease-in-out;
+  .contenedor .container .novedades {
+    margin-bottom: 30px;
   }
-  main .novedades:hover {
-    box-shadow: 0 8px 16px rgb(0, 0, 0);
-  }
-  main .novedades img {
+  .contenedor .container .novedades img {
     width: 100%;
-    height: fit-content;
   }
-  footer {
-    text-align: center;
-    margin-top: 50px;
-    padding: 20px;
-    background-color: silver;
-  }
-  footer .copy {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: x-small;
-  }
-  footer .redes {
-    padding: 15px;
-    text-align: right;
-  }
-  footer .redes a {
-    color: blue;
-    font-family: "Russo One", sans-serif;
-    text-decoration: none;
-    padding: 5px;
-  }
-  footer .redes a:hover {
-    text-decoration: underline;
+  .redes {
+    flex-direction: column;
   }
 }
 * {
@@ -254,9 +64,16 @@ body {
   background-color: rgb(75, 71, 71);
 }
 
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
 header {
   background-color: black;
-  padding: 20px;
   text-align: center;
 }
 header h1 {
@@ -285,9 +102,6 @@ header .logotipo img {
   height: 315px;
 }
 
-main {
-  margin: 100px;
-}
 main h1 {
   margin: 90px;
   font-family: "Russo One", sans-serif;
@@ -313,10 +127,7 @@ main .boton .button {
   border-radius: 50px;
 }
 main .home {
-  margin: 250px;
-  width: 900px;
-  padding: 15px;
-  margin-top: 20px;
+  cursor: pointer;
   transition: all ease 300ms;
 }
 main .home:hover {
@@ -326,23 +137,27 @@ main .home img {
   width: 100%;
   height: fit-content;
 }
-main .container {
+main .contenedor .container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-main .container .novedades {
-  width: 500px;
-  margin: 10px;
+main .contenedor .novedades {
+  width: 30%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
   border: 4px solid black;
   border-radius: 2px;
   transition: box-shadow 0.3s ease-in-out;
 }
-main .container .novedades:hover {
+main .contenedor .novedades:hover {
   box-shadow: 0 8px 16px rgb(0, 0, 0);
 }
-main .container .novedades img {
+main .contenedor .novedades img {
+  display: block;
   width: 100%;
-  height: fit-content;
+  object-fit: cover;
 }
 
 footer {
